@@ -1,0 +1,158 @@
+*,
+html,
+body {margin: 0px;padding: 0px;box-sizing: border-box;text-decoration: none; transition: 0.5s; font-family: 'Titillium Web', sans-serif;}
+
+.headback{width: 1280px; height: 555px; margin: auto; display: flex; justify-content: center; background-color: #2fa083;}
+.blockmenu{height: 510px; width: 230px;}
+.menu{background: white; height: 125px; width: 230px; background-color: white; border-bottom: 1px solid #e5e5e5; display: flex; justify-content: center; align-items: center;}
+.menu2{background: white; height: 295px; width: 230px; background-color: white; padding: 34px 47px;}
+.menu1{width: 0;height: 0;border-left: 115px solid transparent;border-right: 115px solid transparent;border-top: 40px solid white;}
+.menuitem{ margin-bottom: 15px; position: relative;}
+.links{color: #a9a9a9;}
+.menuitem:hover:before{content: '►'; color: #2fa083; position: absolute; left:-20px;}
+
+/*_____SLIDER________________________85px________*/
+
+.slide{width: 775px; height: 500px; position: relative;overflow: hidden; margin-top: 55px;}
+.sl{position: absolute; width: 670px; height: 400px;  right:80px;}
+#slid2{top:30px;}
+#slid1{top:-400px;}
+#slid3{top:-400px;}
+#slid4{top:-400px;}
+#slid5{top:-400px;}
+.buttons{position: absolute; top:455px; right: 380px;}
+.buttons button{width: 10px; height: 10px; border-radius: 50%; background-color: white; border: none; margin-left: 5px; }
+.buttons button:focus{background-color: #0a916a;}
+
+.brands{height: 122px; width: 1280px;background-color: #f4f4f4; display: flex; justify-content: space-around; align-items: center; padding: 0px 150px 0px 150px; margin: auto;}
+.brand1{width: 163px; height: 53px; background-image: url(../img/coca.png)}
+.brand2{width: 150px; height: 80px; background-image: url(../img/brok.png)}
+.brand3{width: 261px; height: 66px; background-image: url(../img/backardy.png)}
+.brand4{width: 158px; height: 62px; background-image: url(../img/nestle.png)}
+
+.images1{display: flex; justify-content: center;margin-top: 40px;}
+.images1 img{margin-right: 30px;flex-wrap: wrap;}
+.images1 img:last-child {margin-right: 0px;}
+
+.soctext{text-align: center; margin-top: 80px; font-size: 20px; color: white; width: 670px;}
+.socialmedia {border: 2px solid white; width: 195px; height: 52px; border-radius: 10px; padding: 4px 0; margin: 60px auto;}
+.socialmedia p{color: white; text-align: center; font-size: 26px;}
+
+
+
+/*------------------------------------*/
+
+
+.maintext{width: 900px; height: 310px; margin: auto; color: #797979;}
+.maintext p{text-align: center; font-size: 12px; margin: auto; width: 670px}
+.maintext h1{font-size: 24px; width: 500px; text-align: center; margin: 78px auto 55px;}
+.tyb{width: 170px; height: 45px; margin: 50px auto;}
+.tyb button{width: 170px; height: 45px;background-color: #1dc896;border: none; border-radius: 7px; cursor: pointer; font-size: 20px; color: white;}
+button:focus {outline: none;}
+button:hover {background-color: #0a916a;}
+button:active {transform: scale(0.9)}
+
+.foot{width: 1280px; height: 300px; background-color: #1dc896; display: flex; justify-content: space-between; align-items: center; margin: auto; padding: 0 215px; color: white;}
+.textplace{width: 390px; height: 180px;}
+.firsthalf h2{margin-bottom: 20px; font-weight:normal;}
+.sechalf h2{margin-bottom: 20px; font-weight: normal;}
+
+.ifr{display: flex; justify-content: center; position: relative; margin: auto; width: 1280px;}
+.contact{width: 420px; height: 430px; position: absolute; right: 170px; bottom: 0%; background-color: white; border-radius: 8px;}
+.contact h3{font-size: 24px; color: #797979; margin: 30px 0 30px 35px;}
+.innercontactshead{height: 10px; background-color:#1dc896; width: 420px; border-radius: 8px 8px 0 0;}
+.in{width: 350px; height: 32px;margin-bottom: 15px; border: 1px solid #d8d8d8; color: #d8d8d8; padding: 0 15px;}
+.messages{width: 350px; height: 82px; margin-top: 5px;border: 1px solid #d8d8d8; color: #d8d8d8; padding: 10px 0 0 15px;margin-bottom: 25px;resize: none;overflow: auto;}
+.form1{width: 350px; margin: auto;}
+.form1 button{width: 125px; height: 35px; background-color: #1dc896; border-radius: 7px; cursor: pointer; font-size: 20px; color: white; border: none; margin-left: 225px;}
+
+@media screen and (max-width: 980px){
+    .headback{width: 100%; justify-content: space-between;}
+.blockmenu{height: 510px; width: 150px;}
+.menu{width: 150px;}
+.menu2{width: 150px;padding: 34px 27px;}
+.menu1{border-left: 75px solid transparent;border-right: 75px solid transparent;}
+/*_____SLIDER________________________85px________*/
+
+.slide{width: 500px;}
+.sl{width: 410px;}
+.buttons{right: 280px;}
+
+.brands{height: 222px; width: 100%;justify-content: space-between; flex-wrap: wrap; padding: 10px 110px;}
+.brand1{ margin-right: 20px;}
+.images1 img{margin-right: 10px;}
+.soctext{margin-top: 50px; font-size: 15px; width: 410px;}
+.socialmedia {width: 125px; height: 52px; padding: 12px 0; margin: 60px auto;}
+.socialmedia p{font-size: 16px;}
+
+/*------------------------------------*/
+.maintext{width: 100%;}
+.maintext p{font-size: 12px;width: 80%}
+.maintext h1{font-size: 18px; width: 45%;}
+.foot{width: 100%; height: 380px; align-items: flex-start; padding: 10% 25px;}
+.textplace{width: 48%; height: 340px;}
+.firsthalf h2{font-size: 20px; font-weight: bold;}
+.sechalf h2{font-size: 20px; font-weight: bold;}
+
+.ifr{width: 100%;}
+.contact{width: 320px; height: 380px;right: 40px; transform: scale(0.8)}
+.contact h3{font-size: 18px; margin: 10px 0 20px 35px;}
+.innercontactshead{width: 320px;}
+.in{width: 250px; height: 42px;margin: 0px 0px 15px 0px;}
+.messages{width: 250px;margin: 5px 0px 0px 0px;}
+.form1{width: 250px; margin: auto;}
+.form1 button{margin-left: 125px;}
+}
+
+
+@media screen and (max-width: 640px){
+/*_____SLIDER________________________85px________*/
+
+.slide{width: 400px;}
+.sl{position: absolute; width: 310px; height: 400px;  right:80px;}
+.buttons{top:80%; right: 40%;}
+    .buttons button{width: 30px; height: 30px;}
+
+.brands{height: auto; width: 100%;justify-content: space-between; flex-wrap: wrap; padding: 10px 110px;}
+.brand1{ margin-right:10px;}
+.images1 img{margin-right: 0px; transform: scale(0.6);}
+.soctext{margin: 50px auto; font-size: 10px; width: 210px;}
+
+/*------------------------------------*/
+.maintext h1{ margin-bottom: 10px; margin-top: 10px;}
+.foot{width: 100%; height: auto;}
+.textplace{width: 48%; height: auto;}
+.firsthalf h2{font-size: 20px; font-weight: bold;}
+.sechalf h2{font-size: 20px; font-weight: bold;}
+    .expc{margin-left: 20px;}
+}
+
+
+@media screen and (max-width: 480px){
+/*_____SLIDER________________________85px________*/
+    .blockmenu{width: 340px; margin: auto; }
+    .menu1, .menu2, .menu{width: 340px; margin: auto;padding-top: 0px;}
+    .menu2{ padding-left:75px;}
+    .menu2 .menuitem{ display: inline-block; margin-top: 5px; margin-right: 25px;padding-top: 0px; }
+    .menu2{height: 100px;}
+    .menu1{border-left: 170px solid transparent;border-right: 170px solid transparent; border-top: 70px solid white;}
+    
+.headback{height: 900px; display: block;}    
+.slide{top:-230px; width: 360px; margin-top: 0px;}
+.sl{position: absolute; width: 250px; height: 300px;  right:55px;}
+.buttons{top:85%; right: -17% ;width: 100%}
+.buttons button{width: 40px; height: 40px;}
+
+.brands{height: auto; width: 100%;justify-content: space-between; flex-wrap: wrap; padding: 10px 40px;}
+.brand1, .brand2, .brand3, .brand4{ margin: auto;}
+.images1 img{margin-right: 0px; transform: scale(0.6);}
+.soctext{margin: 50px auto; font-size: 10px; width: 210px;}
+    
+/*------------------------------------*/
+.maintext h1{ margin-bottom: 10px; margin-top: 10px;width: 80%}
+    .foot{width: 100%; height: auto;}
+.textplace{width: 48%; height: auto;}
+.firsthalf h2{font-size: 20px; font-weight: bold;}
+.sechalf h2{font-size: 20px; font-weight: bold;}
+
+}
